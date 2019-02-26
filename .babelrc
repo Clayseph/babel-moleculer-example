@@ -1,0 +1,17 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "modules": "commonjs",
+                "useBuiltIns": "usage",
+            }
+        ]
+    ],
+    "plugins": [
+        "add-module-exports",
+        "@babel/plugin-transform-regenerator"
+    ],
+    "retainLines": true,
+    "sourceMaps": "inline"
+}
